@@ -154,17 +154,6 @@ const foodMenu = [
 </script>
 
 <style lang="scss" scoped>
-.section-subtitle {
-  font-size: 16px !important;
-}
-
-.section-text {
-  color: var(--sonic-silver) !important;
-  font-family: var(--ff-rubik) !important;
-  font-weight: var(--fw-500) !important;
-  font-size: 16px !important;
-}
-
 .price-wrapper {
   font-size: 16px !important;
 }
