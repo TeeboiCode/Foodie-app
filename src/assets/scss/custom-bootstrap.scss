@@ -1,0 +1,58 @@
+/*-----------------------------------------------------*\
+  # STEP 1: Load Google Fonts (optional)
+\*-----------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@400;500;700&display=swap");
+
+/*-----------------------------------------------------*\
+  # STEP 2: Bootstrap SCSS Variables (override before import)
+\*-----------------------------------------------------*/
+$primary: hsl(32, 100%, 59%);
+$secondary: hsl(0, 0%, 60%);
+$success: hsl(145, 63%, 49%);
+$info: hsl(204, 86%, 53%);
+$warning: hsl(31, 84%, 50%);
+$danger: hsl(3, 90%, 55%);
+$light: hsl(38, 44%, 96%);
+$dark: hsl(210, 26%, 7%);
+
+$font-family-base: "Roboto", sans-serif;
+$headings-font-family: "Rubik", sans-serif;
+$font-size-base: 1.6rem;
+$line-height-base: 1.6;
+
+$body-bg: hsl(0, 0%, 100%);
+$body-color: hsl(0, 0%, 47%);
+
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+$border-radius: 0.5rem;
+$btn-font-weight: 500;
+$btn-padding-x: 2rem;
+$btn-padding-y: 1rem;
+$box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+
+/*-----------------------------------------------------*\
+  # STEP 3: Import Bootstrap Core
+\*-----------------------------------------------------*/
+@import "bootstrap/scss/bootstrap";
+
+/*-----------------------------------------------------*\
+  # STEP 4: Add Your Custom CSS
+\*-----------------------------------------------------*/
+@import "about";
+@import "back-top";
+@import "banner";
+@import "base-reset";
+@import "blog";
+@import "cta";
+@import "custom-properties";
+@import "delivery";
+@import "food-menu";
+@import "footer";
+@import "header";
+@import "hero";
+@import "media-queries";
+@import "promo";
+@import "reused-styles";
+@import "testimonial";
+@import "search-box";
