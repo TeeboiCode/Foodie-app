@@ -28,12 +28,13 @@
   font-weight: var(--fw-500);
   padding: 5px 20px;
   border: 1px solid var(--border-color, var(--cultured));
+  font-size: 16px !important;
 }
 
 .filter-btn.active {
-  background-color: var(--deep-saffron);
-  --color: var(--white);
-  --border-color: var(--deep-saffron);
+  background-color: var(--deep-saffron) !important;
+  --color: var(--white) !important;
+  --border-color: var(--deep-saffron) !important;
 }
 
 .food-menu-list {
@@ -60,6 +61,8 @@
 }
 
 .food-menu-card .badge {
+  padding: 5px 12px !important;
+  font-weight: 500;
   top: 0;
   left: 0;
 }
