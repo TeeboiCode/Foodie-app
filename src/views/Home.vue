@@ -14,7 +14,6 @@
 
 <script setup>
 import AboutSectionVue from "../components/about/AboutSection.vue";
-
 import FoodMenuSectionVue from "../components/food-menu/FoodMenuSection.vue";
 import CtaVue from "../components/cta/Cta.vue";
 import headerVue from "../components/header/header.vue";
