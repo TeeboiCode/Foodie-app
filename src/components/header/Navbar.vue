@@ -2,11 +2,13 @@
   <nav class="navbar" data-navbar>
     <ul class="navbar-list">
       <li class="nav-item">
-        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        <router-link to="/" class="navbar-link" data-nav-link>Home</router-link>
       </li>
 
       <li class="nav-item">
-        <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+        <router-link to="/about" class="navbar-link" data-nav-link
+          >About Us</router-link
+        >
       </li>
 
       <li class="nav-item">
