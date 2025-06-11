@@ -203,3 +203,20 @@
   gap: 5px !important;
   color: var(--deep-saffron) !important;
 }
+
+.dropdown-menu {
+  --bs-dropdown-border-radius: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  top: 159% !important;
+}
+
+.dropdown-item {
+  font-size: 13px;
+  font-weight: 600 !important;
+  padding: 1rem 2rem !important;
+}
+
+.dropdown-item:hover {
+  color: var(--cinnabar) !important;
+  background-color: transparent !important;
+}
