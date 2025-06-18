@@ -16,6 +16,10 @@
     <router-link class="btn btn-dark" to="/ayomikun" role="button"
       >Ayomikun Task</router-link
     >
+
+    <router-link class="btn btn-dark" to="/seyi" role="button"
+      >Seyi Task</router-link
+    >
   </div>
 </template>
 

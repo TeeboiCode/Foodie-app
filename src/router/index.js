@@ -27,6 +27,11 @@ const routes = [
       import("../components/TasksFolder/TasksView/TaskOyinkansola.vue"),
   },
   {
+    path: "/seyi",
+    name: "Seyi",
+    component: () => import("../components/TasksFolder/TasksView/TaskSeyi.vue"),
+  },
+  {
     path: "/precious",
     name: "PreciousTask",
     component: () =>
