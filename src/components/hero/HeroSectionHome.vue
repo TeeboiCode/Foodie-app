@@ -2,9 +2,8 @@
   <section class="hero" id="home">
     <div class="container">
       <div class="hero-content">
-        <p class="hero-subtitle">Eat Sleep And</p>
-
         <h2 class="h1 hero-title">Supper delicious Burger in town!</h2>
+        <p class="hero-subtitle">{{ text }}</p>
 
         <p class="hero-text">
           Food is any substance consumed to provide nutritional support for an
@@ -40,6 +39,8 @@
 <script setup>
 import heroBg from "@/assets/images/hero-banner-bg.png";
 import heroBgImg from "@/assets/images/hero-banner.png";
+
+const text = "Eat Sleep And";
 </script>
 
 <style lang="scss" scoped>
