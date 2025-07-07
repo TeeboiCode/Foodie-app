@@ -10,6 +10,17 @@
     <router-link class="btn btn-secondary" to="/precious" role="button"
       >Precious Task</router-link
     >
+     <router-link class="btn btn-secondary" to="/precious02" role="button"
+      >Precious Task 02</router-link
+    >
+
+     <router-link class="btn btn-secondary" to="/precious03" role="button"
+      >Precious Task 03</router-link
+    >
+
+     <router-link class="btn btn-secondary" to="/precious04" role="button"
+      >Precious Task 04</router-link
+    >
     <router-link class="btn btn-danger" to="/oyinkansola" role="button"
       >Oyinkansola Tasks</router-link
     >
