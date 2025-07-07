@@ -20,6 +20,36 @@ const routes = [
     component: () =>
       import("../components/TasksFolder/TasksView/TaskAyomikun.vue"),
   },
+   {
+    path: "/ayomikun02",
+    name: "Ayomikun02",
+    component: () =>
+      import("../components/TasksFolder/Ayomikun02.vue"),
+  },
+  {
+    path: "/ayomikun03",
+    name: "Ayomikun03",
+    component: () =>
+      import("../components/TasksFolder/Ayomikun03.vue"),
+  },
+  {
+    path: "/ayomikun04",
+    name: "Ayomikun04",
+    component: () =>
+      import("../components/TasksFolder/Ayomikun04.vue"),
+  },
+   {
+    path: "/ayomikun05",
+    name: "Ayomikun05",
+    component: () =>
+      import("../components/TasksFolder/Ayomikun05.vue"),
+  },
+  {
+    path: "/ayomikun06",
+    name: "Ayomikun06",
+    component: () =>
+      import("../components/TasksFolder/Ayomikun06.vue"),
+  },
   {
     path: "/oyinkansola",
     name: "OyinkansolaTasks",
@@ -36,6 +66,24 @@ const routes = [
     name: "PreciousTask",
     component: () =>
       import("../components/TasksFolder/TasksView/TaskPrecious.vue"),
+  },
+  {
+    path: "/precious02",
+    name: "PreciousTask02",
+    component: () =>
+      import("../components/TasksFolder/Precious02.vue"),
+  },
+  {
+    path: "/precious03",
+    name: "PreciousTask03",
+    component: () =>
+      import("../components/TasksFolder/Precious03.vue"),
+  },
+   {
+    path: "/precious04",
+    name: "PreciousTask04",
+    component: () =>
+      import("../components/TasksFolder/Precious04.vue"),
   },
 ];
 
