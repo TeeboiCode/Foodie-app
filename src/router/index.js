@@ -18,7 +18,7 @@ const routes = [
     path: "/ayomikun",
     name: "Ayomikun",
     component: () =>
-      import("../components/TasksFolder/TasksView/TaskAyomikun.vue"),
+      import("../components/TasksFolder/Ayomikun.vue"),
   },
    {
     path: "/ayomikun02",
@@ -65,7 +65,7 @@ const routes = [
     path: "/precious",
     name: "PreciousTask",
     component: () =>
-      import("../components/TasksFolder/TasksView/TaskPrecious.vue"),
+      import("../components/TasksFolder/Precious.vue"),
   },
   {
     path: "/precious02",
