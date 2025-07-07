@@ -17,6 +17,26 @@
       >Ayomikun Task</router-link
     >
 
+      <router-link class="btn btn-dark" to="/ayomikun02" role="button"
+      >Ayomikun Task 02</router-link
+    >
+
+       <router-link class="btn btn-dark" to="/ayomikun03" role="button"
+      >Ayomikun Task 03</router-link
+    >
+    
+      <router-link class="btn btn-dark" to="/ayomikun04" role="button"
+      >Ayomikun Task 04</router-link
+    >
+
+     <router-link class="btn btn-dark" to="/ayomikun05" role="button"
+      >Ayomikun Task 05</router-link
+    >
+
+       <router-link class="btn btn-dark" to="/ayomikun06" role="button"
+      >Ayomikun Task 06</router-link
+    >
+
     <router-link class="btn btn-dark" to="/seyi" role="button"
       >Seyi Task</router-link
     >
