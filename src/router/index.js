@@ -9,6 +9,11 @@ const routes = [
     component: () => import("@/views/About.vue"),
   },
   {
+    path: "/menu",
+    name: "Menu",
+    component: () => import("@/views/Menu.vue"),
+  },
+  {
     path: "/soburat",
     name: "Soburat",
     component: () =>
@@ -65,25 +70,25 @@ const routes = [
     path: "/precious",
     name: "PreciousTask",
     component: () =>
-      import("../components/TasksFolder/Precious.vue"),
+      import("../components/TasksFolder/PreciousTask.vue"),
   },
   {
     path: "/precious02",
     name: "PreciousTask02",
     component: () =>
-      import("../components/TasksFolder/Precious02.vue"),
+      import("../components/TasksFolder/PreciousTask02.vue"),
   },
   {
     path: "/precious03",
     name: "PreciousTask03",
     component: () =>
-      import("../components/TasksFolder/Precious03.vue"),
+      import("../components/TasksFolder/PreciousTask03.vue"),
   },
    {
     path: "/precious04",
     name: "PreciousTask04",
     component: () =>
-      import("../components/TasksFolder/Precious04.vue"),
+      import("../components/TasksFolder/PreciousTask04.vue"),
   },
 ];
 
